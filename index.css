@@ -1,6 +1,8 @@
 
 body{
-  background-image:url('008.jpg');
-  background-repeat:no-repeat;
-  background-color:#59FF59;
+  p{
+    background-image:url('008.jpg');
+    background-repeat:no-repeat;
+    background-color:#59FF59;
+  }
 }
