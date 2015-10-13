@@ -3,12 +3,18 @@
 <html>
 	<head>
 		<title>我的履歷</title>
+		<script language="javascript" src = "index.js">
+        </script>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body id="top">
-
+	<body id="top" BGCOLOR="#FFFFFF" onload="start(document.forms[0])" onunload="cleartids()">
+        <form name="banner">
+          <p>
+          <input type="text" name="result" size="20">
+          </p>
+        </form>
 		<!-- Header -->
 			<header id="header">
 				<a href="#" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
